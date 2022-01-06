@@ -24,6 +24,7 @@ blacken-docs = "^1.12.0"
 black = "^21.12b0"
 codespell = "^2.1.0"
 Sphinx = "^4.3.2"
+furo = "^2022.1.2"
 
 [tool.isort]
 profile = "black"
