@@ -41,7 +41,7 @@ extensions = [
     "sphinx.ext.viewcode",
     "sphinxext.opengraph",
     "sphinx.ext.graphviz",
-    "docstats.docstats",
+    "docstats",
 ]
 
 # Automatically generate stub pages when using the .. autosummary directive

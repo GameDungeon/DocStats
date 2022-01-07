@@ -12,8 +12,6 @@ Welcome to DocStats's documentation!
 
 .. callgraph::
 
-.. callgraph::
-
 
 Indices and tables
 ==================

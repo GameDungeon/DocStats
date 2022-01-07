@@ -1,6 +1,5 @@
 default_stages: [commit, push]
 fail_fast: false
-exclude: ^(docs/i18n/)
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.1.0
@@ -59,3 +58,4 @@ repos:
     rev: 'v0.930'
     hooks:
       - id: mypy
+        additional_dependencies: ["types-docutils"]
