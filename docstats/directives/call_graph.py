@@ -38,13 +38,20 @@ class CallGraph(Directive):
 
         subprocess.run(
             [
-                "code2flow",
+                "ls",
                 "../",
+            ]
+        )
+
+        subprocess.run(
+            [
+                "code2flow",
+                "../docstats",
                 "-o",
                 f"source/graphs/callgraph_{callgraph_count}.dot",
                 "--language",
                 "py",
-                "--quiet",
+                # "--quiet",
             ]
         )
 
