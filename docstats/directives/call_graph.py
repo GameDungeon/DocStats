@@ -44,7 +44,7 @@ class CallGraph(Directive):
                 f"source/graphs/callgraph_{callgraph_count}.dot",
                 "--language",
                 "py",
-                "--quite",
+                "--quiet",
             ]
         )
 

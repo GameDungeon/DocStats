@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "docstats"
-version = "0.1.0"
+version = "0.1.2"
 description = "Statistics and other numbers for your sphinx pages"
 authors = ["GameDungeon <gamedungeon@protonmail.com>"]
 license = "MIT"
