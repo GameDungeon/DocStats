@@ -10,6 +10,9 @@ Welcome to DocStats's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+.. callgraph::
+
+.. callgraph::
 
 
 Indices and tables
